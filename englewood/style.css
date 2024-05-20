@@ -1,0 +1,1362 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+/*======================HEADER===================*/
+
+
+header{
+    background-color: #D3D8DCED;
+    width: 95.104vw;
+    height: 4.635vw;
+    margin-top: 1.406vw;
+    margin-left: 2.448vw;
+    margin-right: 1.406vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.logo h3{
+    width: 18.219vw;
+    height: 22px;
+    margin-left: 2.344vw;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 1.042vw;
+}
+
+nav{
+    display: flex;
+    margin-left: 10.469vw;
+}
+
+nav span{
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 0.938vw;
+    line-height: 23.04px;
+    height: 1.198vw;
+    color: #222529;
+    margin-right:2.656vw;
+}
+.shop-wine{
+    width: 4.74vw;
+}
+
+.spirits{
+    width: 2.865vw ;
+}
+
+.pantry{
+    width:2.917vw;
+}
+
+.e-gift{
+    width: 5.521vw;
+}
+
+
+.search{
+    display: flex;
+    
+}
+input[type=search]{
+    width: 19.583vw;
+    height: 2.135vw;
+   
+    margin-left: 7.865vw;
+    border-radius: 20.5px;
+    background-color: #FFFFFFBF;
+    border: none;
+
+}
+
+ ::placeholder{
+    width: 9.01vw;
+    height: 0.99vw;
+   
+    padding-left: 1.146vw;
+    font-family: "Lora";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 0.781vw;
+    line-height: 1vw;
+    color: #555554;
+}
+
+.search img{
+    width: 0.931vw;
+    height: 0.931vw;
+    margin-top: 0.521vw;
+    margin-left: -2.76vw;
+}
+
+.right-side{
+    display: flex;
+    margin-left: 2.708vw;
+}
+
+.right-side img{
+    margin-right: 1.042vw;
+    
+}
+.map-icon{
+    width: 1.25vw;
+    height: 1.25vw;
+  
+}
+ .phone-icon, .bag-icon{
+    width: 1.094vw;
+    height: 1.094vw;
+}
+.person-icon{
+    width: 1.458vw;
+    height: 1.458vw;
+}
+.right-side div{
+    width: 0.938vw;
+    height: 0.938vw;
+    border-radius: 50px;
+    margin-top: -0.3vw;
+    margin-left: -1.354vw;
+    background-color: #B7926A;
+    text-align: center;
+}
+
+.right-side h2{
+    width: 0.417vw;
+    height: 0.99vw;
+    margin-top: -0.156vw;
+    margin-left: 0.26vw;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 0.833vw;
+    line-height: 1.009vw;
+    color: #FFFFFF;
+}
+
+/*================MOBILE HEADER===============*/
+
+.mobile-header{
+    display: none;
+}
+
+/*==================HOME=====================*/
+.home{
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    max-width: 100%;
+}
+
+.home img{
+    width: 100%;
+    height: 43.646vw;
+    margin-top: 0.521vw;
+}
+
+.home-left {
+    position: absolute;
+    margin-top: 16.667vw; 
+    margin-left: 5.781vw; 
+    z-index: 1; 
+}
+
+.home-left h1 {
+    width: 44.427vw;
+    font-size: 5vw ; 
+    line-height: 6.4vw;
+    font-family: "Lora";
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.home-left p {
+    width: 41.302vw;
+    font-size: 1.354vw;
+    margin-top: 0.781vw; 
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 1.651vw;
+    color: #FFFFFF;
+}
+
+
+button{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.524vw;
+    text-align: center;
+    color:#1C1C1C;
+    background-color: #FFFFFF;
+}
+.button-home {
+    display: flex;
+    flex-direction: column;
+}
+.button-home button{
+    width: 18.854vw;
+    height: 2.813vw;
+    border: none;
+    margin-top: 1.302vw;
+}
+
+#btn-shop{
+    background-color: #B7926A;
+    color: #FFFFFF;
+}
+
+#btn-join{
+    margin-top: 0.625vw ;
+}
+
+/*===============WINE==================*/
+
+.wine{
+    margin-left: 5.781vw;
+    padding-right: 4.271vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.979vw;;
+}
+.left h3{
+    width:11.458vw;
+    height: 5.313vw;
+    margin-top: 7.708vw;
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 2.283vw;
+    line-height: 2.667vw;
+}
+
+.left p{
+    width: 17.76vw;
+    height: 4.219vw;
+    
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.146vw;
+    line-height: 1.397vw;
+    color: #858080;
+}
+
+.left button{
+    width: 17.083vw;
+    height: 3.906vw;
+    border-radius: 2px;
+    border: 1px solid #B7926A;
+
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.524vw;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+#prev-btn, #next-btn {
+    width: 1.25vw;
+    height: 1.25vw;
+    margin-top: 16.146vw;
+}
+#prev-btn{
+    margin-left: 4.896vw;
+    margin-right: 3.802vw;
+}
+#next-btn{
+    margin-left: 3.802vw;
+}
+.carousel{
+    display: flex;
+    width: 56.523vw;
+    height: auto;
+    margin-top: 2.969vw;
+}
+
+.mySlides {
+    display: none;
+  }
+
+.mySlides img{
+height: 26.375vw;
+width: auto;
+}
+
+  .prev, .next {
+    cursor: pointer;
+    position: relative;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+  }
+
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+/*===============================================================*/
+.rectangle-decor {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: #222529;
+    height: 26.375vw;
+    width: auto;
+    position: relative;
+}
+.rectangle-center{
+    display: flex;
+    flex-direction: column;
+}
+.rectangle-decor .decor1{
+    position: relative; 
+    width: 25.577vw;
+    height: 24.951vw;
+    margin-left: 1.875vw;
+    z-index: 2; 
+}
+
+.rectangle-decor h3{
+    width: 13.671vw;
+    height: 2.791vw;
+    margin-top: -18.741vw;
+    margin-left: 6.315vw ;
+    font-family:"Lora";
+    font-weight: 600;
+    font-size: 1.253vw;
+    line-height: 1.604vw;
+    color: #B7926A;
+}
+
+
+.rectangle-decor h4{
+    width: 15.99vw;
+    height: 1.979vw;
+    margin-top: 1.156vw;
+    margin-left: 4.961vw;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.797vw;
+    line-height: 0.972vw;
+    color: #FFFFFF;
+}
+
+.rectangle-decor .decor{
+    width: 4.788vw;
+    height: 4.298vw;
+    margin-top: 1.719vw;
+    margin-left: 11.471vw ;
+}
+
+.rectangle-decor button{
+    width: 5.298vw;
+    height: 1.424vw;
+    margin-top:1.182vw ;
+    margin-left: 11.379vw ;
+    border-radius: 2.19px;
+    color: #B7926A ;
+    border: 1px solid #B7926A;
+    background-color: transparent;
+    text-align: center;
+    font-weight: 400;
+    line-height: 0.875vw;
+    font-size: 0.683vw;
+}
+
+/*================GIFT================*/
+.gift{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25vw;
+
+    margin-top: 3.646vw;
+    margin-left: 4.844vw;
+    width: 90.313vw;
+    height: 34.427vw;
+    margin-right:4.844vw ;
+}
+
+.gift img{
+    width: auto;
+    height: 21.094vw;
+}
+
+.gift h3{
+    height: 1.615vw;
+    margin-top: 2.135vw ;
+    margin-left: 29px;
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.6vw;
+    color: #202020;
+}
+
+.gift p{
+    width: 40.573vw;
+    height: 3.438vw;
+    margin-top: 1.094vw;
+    margin-left: 1.51vw;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.938vw;
+    line-height: 1.146vw;
+    color: #202020;
+    
+}
+#gifts{
+    background-color: #F9F9F9;
+}
+
+#gifts span{
+    display: block;
+    margin-top: 1.458vw;
+    margin-left: 1.51vw;
+    width: 5.99vw;
+    color: #B7926A;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 1.27vw;
+}
+
+#gifts span img{
+    display: block;
+    width: 0.938vw;
+    height: 0.938vw;
+    margin-top: -0.938vw;
+    margin-left: 6.302vw;
+}
+
+
+
+/*=================CELLAR====================*/
+.cellar{
+   margin-left: 4.844vw;
+    display: flex;
+    margin-right: 4.844vw;
+}
+
+.cellar main{
+    display: flex;
+    gap: 0.677vw;
+    flex-direction: row;
+    margin-left: 5.729vw;
+    margin-top: 5.781vw;
+    margin-bottom: 7.76vw;
+}
+
+
+.wine-types img{
+    width: 22.031vw;
+    height: 21.615vw;
+}
+
+.wine-types p{
+    margin-top: 0.729vw;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    width: 22.031vw;
+}
+
+.wine-types span{
+    display: inline-block;
+   
+    height: 1.146vw;
+    margin-top: 12px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    color:#B7926A ;
+}
+
+.wine-types .discount{
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.32);
+    text-decoration: line-through;
+}
+
+/*===================SOCIAL====================*/
+
+.social{
+    display: flex;
+    margin-left: 4.896vw; 
+}
+.social .left{
+    margin-right: 5.729vw;
+    gap: 0;
+}
+
+.social .elfsight-app-db6ef2db-4837-4286-91a2-3934cc8b978c{
+   width: 68vw !important;
+   overflow: hidden !important;
+}
+
+
+
+/*===============LOCATION==================*/
+.location{
+    display: flex;
+    margin-left: 4.844vw;
+    width: 90.313vw;
+    height: 28.125vw;
+}
+
+.location-specification{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #202020;
+    width: 45.469vw;
+    height:28.125vw ;
+}
+.location .map iframe{ 
+    width: 45.469vw;
+    height:28.125vw ;
+}
+.location-specification .map-icon{
+    width: 2.604vw;
+    height:2.565vw ;
+    margin-left: 21.094vw;
+}  
+
+.location-specification h3{
+    text-transform: uppercase;
+    height: 2.396vw;
+    margin-top: 1.823vw;
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.08px;
+    letter-spacing: 0.06px;
+    color: #FFFFFF;
+}
+
+.location-specification p{
+    height: 1.615vw;
+    margin-top: 1.823vw;
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30.72px;
+    letter-spacing: 0.06px;
+    color: #B7926A;
+}
+
+/*===============FOOTER--=============*/
+footer{
+    display: flex;
+    margin-top: 5.885vw;
+    border-top: 1px solid #B7926A;
+    max-width: 100vw;
+    height: 29.792vw;
+    
+}
+footer .logo-footer h3{
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 1.108vw;
+    line-height: 1.342vw;
+    width: 18.823vw;
+    height: 1.354vw;
+}
+.contact{
+    width: 16.823vw;
+    margin-left: 4.531vw;
+    margin-top: 6.51vw;
+}
+
+.contact h5{
+    width: auto;
+    height: 20px;
+    margin-top: 24px;
+    font-family: "Lora";
+    font-weight: 600;
+    font-size: 0.833vw;
+    line-height: 1.067vw;
+}
+
+.contact p{
+    width: auto;
+    height: auto;
+    margin-top: 0.625vw ;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.729vw;
+    line-height: 0.889vw;
+}
+
+.contact span{
+    display: inline-block;
+    width: auto;
+    height: 17px;
+    margin-top: 0.677vw;
+    font-family: "Montserrat";
+    font-size: 0.729vw;
+    font-weight: 400;
+    line-height: 0.889vw;
+}
+
+.contact hr{
+    width: 17.76vw;
+    margin-top: 1.875vw;
+    color: #474443;
+}
+
+.contact button{
+    width: 17.76vw;
+    height: 1.719vw;
+    margin-top: 1.25vw;
+    border: 0.5px solid #474443;
+    font-weight: 400;
+    font-size: 0.729vw;
+    line-height: 0.889vw;
+    letter-spacing: 0.06px;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 1.51vw;
+    padding: 2px, 35.72px, 2px, 5px;
+    gap: 0.797vw;
+    width: 8.68vw;
+    height: 1.25vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 29.792vw;
+    margin-left: 7.448vw;
+    margin-top: 6.51vw;
+    padding-right: 1.615vw;
+    padding: 0px, 0.01px, 0px, 0px;
+    gap: 5.885vw;
+    
+}
+
+.main .col{
+    width: 18.403vw;
+    height: 29.792vw;
+    padding: 10px;
+}
+
+.col h4{
+    height: 1.749vw;
+    border-bottom: 1px solid #B7926A;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 0.833vw;
+    line-height: 0.917vw;
+    letter-spacing: 0.06px;
+    color: #B7926A;
+    text-transform: uppercase;
+    margin-bottom: 1.042vw;
+}
+.main .col:nth-last-child(-n+2) h4 {
+    width: 13.542vw;
+    border-bottom: 1px solid #B7926A;
+}
+.col h5{
+    width: 14.375vw;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.729vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.06px;
+    color: #B7926A;
+    text-transform: uppercase;
+    padding-bottom: 1.042vw;
+    
+}
+
+.col span{
+    color: #1C1C1C;
+    text-transform: none;
+    display: block;
+    font-size: 0.729vw;
+    width: 18.403vw;
+}
+.col ul{
+    width: auto;
+    height: 10.938vw;
+    padding: 0px, 0px, 6px, 0px;
+    
+   
+}
+.col ul li{
+    list-style-type: none;
+    gap: 6px;
+}
+
+.col ul li a{
+    height: 24px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.729vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.06px;
+    color: #1C1C1C;
+    
+}
+
+.mobile-footer{
+    display: none;
+}
+
+/*=========Copyright==============*/
+.copyright{
+    display: block;
+    margin-left: 4.531vw;/*????   ???*/
+    justify-content: space-between;
+    padding: 10px, 647px, 0px, 0px;
+}
+
+.copyright p{
+    
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.729vw;
+    line-height: 2.083vw;
+    letter-spacing: 0.06px;
+    color: #1C1C1C;
+}
+
+.social-media-mobile{
+    display: none;
+}
+
+/*==================MEDIA QUERY===================*/
+@media only screen and (max-width: 700px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        display: none;
+    }
+    .mobile-header{
+        max-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 17.303vw;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
+        
+    }
+
+    .mobile-left{
+        display: flex;
+        gap: calc(20px + 10%);
+        margin-left: 1.3750em;
+        
+    }
+    .mobile-left img{
+        width: 1.3750em;
+        height: 1.3750em;
+    }
+
+    .mobile-logo {
+        display: flex; 
+        align-items: center;
+        flex-grow: 1; 
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mobile-logo h1 {
+        font-family: "Cormorant";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29.06px;
+        margin: 0;
+    }
+
+    .mobile-right{
+        margin-right: 1.3750em;
+        display: flex;
+        gap:22px ;
+    }
+    .mobile-right img{
+        width: 22px;
+        height: 22px;
+    }
+/*mobile nav*/
+.mobile-nav {
+    display: none; 
+    position: absolute; 
+    top: 10.8%; 
+    margin-left: 5%;
+    padding: 0;
+    width: 90%; 
+    height: auto;
+    background-color: #ffffff; 
+    z-index: 99999;  
+    margin-bottom: 5%;
+}
+.mobile-nav ul{
+    list-style: none;
+    margin-left: 10%;
+    width: 70vw;
+    height: auto;
+    margin-top: 4vw;
+}
+
+.mobile-nav ul li{
+    margin-bottom: 4vw;
+    border-bottom: 1px solid #B7926A;
+}
+.mobile-nav ul li a{
+    text-decoration: none;
+    color: #858080;
+    width: 100vw;
+}
+.mobile-nav.active {
+    display: block; 
+}
+
+.mobile-nav .mobile-info img{
+    width: 12px;
+    margin-left: 10%;
+}
+
+.mobile-nav .mobile-info span{
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 5vw;
+    text-decoration: underline;
+    margin-left: 2vw;
+}
+
+#search-icon {
+    cursor: pointer;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar {
+    display: none;
+    position: absolute;
+    top: -2vw;
+    left: 0;
+    width: 82vw;
+    height: 8vw;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    z-index: 1000;
+}
+
+#search-bar::placeholder{
+    width: 50vw;
+    height: auto;
+   font-size: 14px;
+   font-style: italic;
+   font-weight: 400;
+}
+
+
+/*=============MOBILE HOME==========*/
+    .home{
+        max-width: 100vw;
+    }
+    .home img{
+        height: 21.375rem;
+        margin:0;
+        object-fit: cover;
+    }
+
+    .home-left{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    .home-left h1{
+       width: 100%;
+       margin-top: 8vw;
+       font-size: 32px;
+       line-height: 40.96px;
+       
+    }
+    .home-left p{
+        width: 88%;
+        margin-top: 1.272vw;
+        font-size: 12px;
+        line-height: 3.723vw;
+    }
+    
+    .home-left button{
+        width: 37.15vw;
+        height: 7.125vw;
+        font-size: 3.053vw;   
+        margin-top: 3.817vw;
+    }
+    #btn-join{
+        margin-top:1.272vw;
+        
+    }
+
+    /*============MOBILE WINE==============*/
+
+    #mobile-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .left{
+        margin-left: 6.107vw;
+    }
+    
+    .left h3{
+        margin-top: 6.87vw;
+        width: 45.802vw; 
+        font-size: 6.107vw ;
+    }
+
+    .left p{
+        margin-top: 2.036vw;
+        width: 81.934vw;
+        font-size: 3.053vw ;
+        line-height: 3.723vw;
+    }
+
+    .left button{
+        width: 31.298vw;
+        height: 7.125vw;
+        display: block;
+        margin-top: 2.036vw;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14.63px;
+        text-align: center;
+       
+    }
+    /*CAROUSEL*/
+    .wine main{
+        margin: 0;
+        padding: 0;
+    }
+    .wine main a img {
+        display: none;
+    }
+    .carousel {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0 ;
+        padding-left: 0;
+        margin-top: 6.87vw;
+    }
+    .carousel img{
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+        height:auto;
+    }
+
+    .prev, .next{
+        display: none;
+    }
+    .rectangle-decor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+        background-color: #222529;
+        height: auto; 
+        width: 100%;
+        margin-top: -1.272vw;
+        margin-left: 0;
+    }
+    
+    .rectangle-decor .decor1 {
+        width: 94.402vw;
+        height: auto;
+        margin-left: 1.527vw;
+        margin-top: 1.272vw;
+        margin-bottom: 5.089vw;
+    }
+    
+    .rectangle-decor .rectangle-center {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+       justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rectangle-decor h3{
+        font-size: 4.58vw;
+        line-height: 5.863vw;
+        width:50.891vw ;
+        height: 13.74vw;
+        text-align: center;
+    }
+
+    .rectangle-decor h4{
+        font-size: 14px;
+        line-height: 3.723vw;
+        margin-top: 1.272vw;
+        width:43.9vw;
+        height: 9.669vw;
+        text-align: center;
+        
+    }
+
+    .rectangle-center .decor{
+        width: 21.12vw;
+        height: 18.959vw;
+        margin-left: -1vw;
+    }
+
+    .rectangle-decor button{
+        width: 101.72px;
+        height: 27.3px;
+        font-size: 12px;
+        margin-top: 6.616vw;
+        margin-left: -1vw;
+    }
+    
+    
+    /*============Gift============== */
+   .gift {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4.58vw;
+        gap: 8.651vw;
+        max-width: 100vw;
+        align-items: center;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    #gifts img{
+        width:87.786vw;
+        height: auto;  
+    }
+    
+    #gifts h3, #gifts p, #gifts span{
+        margin-left: 3.562vw;
+    }
+
+    #gifts h3{
+        font-size: 14px;
+        margin-top: 5.598vw;
+    }
+
+    #gifts p{
+        font-size: 12px;
+        line-height: 22px;
+        width: 82.188vw;
+        height: auto;
+        padding-right: 6.107vh;
+        margin-top: 2.036vw;
+    }
+
+    #gifts span{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        height: auto;
+        width: auto;
+        margin-top: 3.562vw;
+        padding-bottom:5.344vw ;
+    }
+    #gifts span img{
+        margin-top: -4px;
+        margin-left: 3px;
+        width: 3.053vw;
+        height: 3.053vw;
+       
+    }
+/*================cellAR================== */
+   .cellar{
+    margin-top: 13.486vw;
+    max-width: 100%;
+   }
+   .cellar h3{
+    width: auto;
+   }
+   .cellar main{
+    display: flex;
+    flex-direction: column;
+    gap: 8.397vw;
+   }
+   .wine-types img{
+    width: 87.786vw ;
+    height: auto;
+   }
+
+   .wine-types p{
+    width: 71.247vw;
+    font-size: 3.053vw;
+   }
+.wine-types span{
+    font-size: 3.562vw;
+}
+/*=========social============= */
+    .social {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .social aside {
+        margin-bottom: 6.616vw;
+        
+    }
+    .social aside p{
+        width: 100%;
+    }
+
+    .social .elfsight-app-db6ef2db-4837-4286-91a2-3934cc8b978c{
+        margin-left: 6.107vw;
+        height: auto;
+        width: 87vw !important;
+    }
+
+/*========location=======*/ 
+
+.location{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100vw;
+    margin-left: 6.107vw;
+}
+
+.location-specification{
+    width: 87.786vw;
+    height: 87.786vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-specification .map-icon{
+    width: 6.043vw;
+    height: 5.852vw;
+    margin-left: 40.204vw;
+}
+.location-specification h3{
+    font-size: 18px;
+    margin-top: 4.326vw;
+}
+.location-specification p{
+    font-size:14px;
+    padding-top: 3.562vw;
+}
+.map-iframe {
+    margin-left: 1vw;
+    width: 87.786vw !important;
+    height: 87.786vw !important;
+}
+
+/*===============FOOTER--=============*/
+
+footer{
+    display: none;
+    border:none;
+}
+
+.mobile-footer{
+    display: block;
+    margin-top: 11.282vw;
+    width: 80vw;
+    height: auto;
+    margin: 0 4.071vw;
+    padding: 0;
+}
+
+.mobile-footer .contact{
+    width: 80vw;
+}
+.mobile-footer h5{
+    width: 50vw;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 16.88px;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+
+}
+
+.mobile-footer p{
+    width: 78.462vw;
+    margin-top: 2.036vw;
+    font-family: "Cormorant";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.95px;
+}
+.mobile-footer span{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14.3px;
+    line-height: 21.56px;
+    letter-spacing: 0.4px;
+    margin-top: 6.41vw;
+    width: 78vw;
+    border-bottom: 1px solid #C7A580;
+    width: 78.462vw;
+    padding-bottom: 10.178vw;
+}
+
+.mobile-footer button{
+    margin-top: 8.142vw;
+    width: 78.462vw;
+    height: 9.308vw;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13.34px;
+    line-height: 24.5px;
+    align-items: center;
+}
+.mobile-footer .social-media{
+    display: none;
+}
+
+/* mainnn */
+
+.mobile-footer .main {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 9.415vw;
+    padding: 3.562vw 0;
+    padding-right: 7.562vw;
+    width: 30vw;
+    
+}
+.mobile-footer .column_ {
+    width: 90vw;
+    margin-bottom: 20px;
+}
+.mobile-footer .column_ .header-content{
+    width: 80vw;
+    border-bottom: 1px solid #dedede;
+    display: inline-grid;
+    grid-template-columns: 7fr 1fr;
+    cursor: pointer;
+   
+}
+.mobile-footer .column_ h4 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14.88px;
+    line-height: 25.38px;
+    letter-spacing: 0.4px;
+    height: 10.667vw;
+}
+
+.mobile-footer .column_ .header-content img{
+    width:6.122vw ;
+    height: 6.122vw;
+}
+
+
+.mobile-footer .column_ ul{
+    width: 80vw;
+}
+
+.mobile-footer .column_ h5{
+   justify-content: space-between;
+}
+
+/*===================social=====================*/
+.social-media-mobile{
+    display: block;
+    margin-left: 4.103vw;
+    margin-top: 10.256vw;
+}
+
+.social-media-mobile img{
+    width: 5.128vw;
+    height: 5.128vw;
+    margin-right:1.246vw ;
+    
+}
+.copyright{
+    margin-top: 5.128vw;
+}
+.copyright p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 3.59vw;
+    line-height: 40px;
+    letter-spacing: 0.06px;
+    width: 85vw;
+}
+
+}
